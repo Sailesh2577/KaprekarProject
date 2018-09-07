@@ -22,6 +22,8 @@
  * @return <code>true</code> if <code>n</code> is a Kaprekar Number,
  * <code>false</code> otherwise.
  */
+
+ bool notkaprekar = false;
 int isKaprekar(int n) {
 
   if(n < 1) {
