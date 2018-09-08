@@ -47,7 +47,7 @@ int isKaprekar(int n) {
 
     //split the square into two parts
     first = square / modulous;
-    second = square % modulus;
+    second = square % modulous;
 
     //test if the split makes a Kaprekar number
     //the second part cannot be zero and if
